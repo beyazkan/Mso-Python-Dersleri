@@ -1,16 +1,9 @@
-degisken = "deger"
+karmasik_sayi1 = 3 + 4j
+karmasik_sayi2 = 4 + 1j
 
-muzFiyati = 1.75
+sonuc = karmasik_sayi1 + karmasik_sayi2
 
-musteriA = 2.5
-musteriB = 2
-musteriC = 4.25
-
-kazancA = musteriA * muzFiyati
-kazancB = musteriB * muzFiyati
-kazancC = musteriC * muzFiyati
-
-toplamKazanc = kazancA + kazancB + kazancC
-
-print("Manavın Kazancı:", toplamKazanc, "TL")
-print("Veri tipi:", type(toplamKazanc))
+print("İşlemin Sonucu: ", sonuc)
+print("Veri Tipi: ", type(sonuc))
+print("Reel Sayısı: ", sonuc.real)
+print("Sanal Sayısı: ", sonuc.imag)
