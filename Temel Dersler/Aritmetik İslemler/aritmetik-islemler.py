@@ -1,2 +1,0 @@
-## Aritmetik Problemler
-### Problem : 
